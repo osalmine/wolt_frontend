@@ -1,0 +1,59 @@
+.Section {
+	font-size: calc(10px + 2vmin);
+	padding-bottom: 0.5rem;
+	text-align: left;
+	height: 100%;
+}
+
+.Section h1 {
+	color: #282c34;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 2rem;
+}
+
+.Section:first-of-type {
+	margin-top: 7rem;
+}
+
+.anchor {
+    position: relative;
+    top: -85px;
+    visibility: hidden;
+}
+
+.move-button {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.move-button i {
+	font-size: 28px;
+	padding: 0 10px;
+	/* color: white; */
+	color: #282c34;
+}
+
+.move-button i:hover {
+	color: rgb(156, 156, 156);
+}
+
+.control-container {
+	/* position: absolute;
+	left: 50%;
+	transform: translatex(-50%); */
+	/* bottom: 10px; */
+	top: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slide-dot {
+	border-radius: revert;
+}
+
+.slide-height {
+	height: 30%;
+}
