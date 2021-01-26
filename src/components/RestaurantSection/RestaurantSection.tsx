@@ -29,22 +29,20 @@ const RestaurantSection: React.FC<Props> = ({ section }) => {
 			<i className="anchor" id={section.title.replace(/ /g,'')}/>
 			<h1>{section.title}</h1>
 			<CarouselProvider
-				naturalSlideWidth={100}
-				naturalSlideHeight={50}
+				naturalSlideWidth={160}
+				naturalSlideHeight={90}
 				totalSlides={section.restaurants.length}
 				infinite={true}
 			>
-				<Slider className="slide-height">
+				<Slider>
 					{section.restaurants.map((restaurant, i) => {
 						return (<Slide index={i} key={i}> <RestaurantComponent restaurant={restaurant} /> </Slide>);
 					})}
 				</Slider>
-				<div className="control-position">
-					<div className="control-container">
-						<ButtonBack className="move-button"><i className="fas fa-angle-left fa-3l fa-ccolor" /></ButtonBack>
-						{section.restaurants.map((el, i) => <Dot className="slide-dot" slide={i} key={i}/>)}
-						<ButtonNext className="move-button"><i className="fas fa-angle-right fa-ccolor" /></ButtonNext>
-					</div>
+				<div className="control-container">
+					<ButtonBack className="move-button"><i className="fas fa-angle-left fa-3l fa-ccolor" /></ButtonBack>
+					{section.restaurants.map((el, i) => <Dot className="slide-dot" slide={i} key={i}/>)}
+					<ButtonNext className="move-button"><i className="fas fa-angle-right fa-ccolor" /></ButtonNext>
 				</div>
 			</CarouselProvider>
 		</div>);

@@ -13,8 +13,8 @@ const RestaurantComponent: React.FC<Props> = ({ restaurant }) => {
 			<Blurhash 
 				hash={restaurant.blurhash}
 				width={'100%'}
-				height={'80%'}
-				className="rounded-corners d-block w-100"
+				height={'83%'}
+				className="rounded-corners d-block"
 			/>
 			<div className="text-container">
 				<h2>{restaurant.name}</h2>

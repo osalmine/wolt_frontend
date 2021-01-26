@@ -20,7 +20,7 @@
 
 .restaurant-wrapper {
 	position: relative;
-	width: 50%;
+	width: 65%;
 	height: 90%;
 	min-height: 9rem;
 	margin: 20px auto 0;
@@ -36,6 +36,7 @@
 	margin: 0;
 	color: #282c34;
 	font-size: 2rem;
+	max-width: 75%;
 	/* margin: 3rem; */
 	/* position: absolute;
 	left: 50%;
@@ -78,15 +79,20 @@
 
 @media (max-width: 576px) {
 	.text-container {
-		margin-top: 1px;
+		/* margin-top: 10px; */
+		bottom: 12px;
+		height: auto;
 	}
 	.text-container p {
 		font-size: 15px;
+		align-self: flex-end;
 	}
 	.text-container h2 {
 		font-size: 1rem;
 	}
 	.restaurant-wrapper {
 		margin-bottom: 10px;
+		width: 70%;
+		height: 95%;
 	}
 }
