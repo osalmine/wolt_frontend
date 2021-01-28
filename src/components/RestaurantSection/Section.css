@@ -2,15 +2,15 @@
 	font-size: calc(10px + 2vmin);
 	padding-bottom: 0.5rem;
 	text-align: left;
-	height: 80%;
+	height: 50%;
+	width: 70%;
+	margin: auto;
 }
 
 .Section h1 {
 	color: #282c34;
 	margin-top: 0;
 	margin-bottom: 0;
-	/* padding-left: 2rem; */
-	padding: 0 2rem;
 }
 
 .Section:first-of-type {
@@ -32,7 +32,6 @@
 .move-button i {
 	font-size: 28px;
 	padding: 0 10px;
-	/* color: white; */
 	color: #282c34;
 }
 
@@ -41,10 +40,6 @@
 }
 
 .control-container {
-	/* position: absolute;
-	left: 50%;
-	transform: translatex(-50%); */
-	/* bottom: 10px; */
 	top: 90%;
 	display: flex;
 	justify-content: center;
