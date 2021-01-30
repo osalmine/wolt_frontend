@@ -1,4 +1,4 @@
-import Restaurant from './Restaurant'
+import Restaurant from './Restaurant';
 import { cleanup, render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 

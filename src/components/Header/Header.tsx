@@ -1,6 +1,6 @@
 import { Section } from '../RestaurantSection/RestaurantSection';
 import { Navbar, Nav } from 'react-bootstrap';
-import './Header.css'
+import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 interface Sections {
@@ -12,7 +12,7 @@ interface Props {
 }
 
 const Header: React.FC<Props> = ({ sectionsProp }) => {
-	return (<>
+	return <>
 		<Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="py-3">
 			<Navbar.Brand href="/" className="navbar-brand-text">Discovery</Navbar.Brand>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,7 +23,7 @@ const Header: React.FC<Props> = ({ sectionsProp }) => {
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
-	</>);
-}
+	</>;
+};
 
 export default Header;

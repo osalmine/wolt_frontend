@@ -26,7 +26,7 @@ interface Props {
 
 const RestaurantSection: React.FC<Props> = ({ section, displayBlurhash = true }) => {
 	return (
-    	<div className="Section">
+		<div className="Section">
 			<i className="anchor" id={section.title.replace(/ /g,'')}/>
 			<h1>{section.title}</h1>
 			<CarouselProvider
@@ -50,6 +50,6 @@ const RestaurantSection: React.FC<Props> = ({ section, displayBlurhash = true })
 				</div>
 			</CarouselProvider>
 		</div>);
-}
+};
 
 export default RestaurantSection;

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Restaurant } from '../RestaurantSection/RestaurantSection';
 import { Blurhash } from "react-blurhash";
-import './Restaurant.css'
+import './Restaurant.css';
 
 interface Props {
 	restaurant: Restaurant;
 	displayBlurhash?: boolean;
-};
+}
 
 const RestaurantComponent: React.FC<Props> = ({ restaurant, displayBlurhash = true }) => {
 	return (
@@ -23,6 +23,6 @@ const RestaurantComponent: React.FC<Props> = ({ restaurant, displayBlurhash = tr
 				<p>{restaurant.online ? "online" : "offline"} <span className={restaurant.online ? "dot online" : "dot offline"} /></p>
 			</div>
 		</div>);
-}
+};
 
 export default RestaurantComponent;
