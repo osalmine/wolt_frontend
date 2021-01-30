@@ -51,10 +51,12 @@
 	width: 100%;
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 768px) {
 	.text-container {
-		bottom: 12px;
+		bottom: 28px;
 		height: auto;
+		padding: 0 5px;
 	}
 	.text-container p {
 		font-size: 15px;
@@ -62,6 +64,28 @@
 	}
 	.text-container h2 {
 		font-size: 1rem;
+		max-width: 60%;
+	}
+	.restaurant-wrapper {
+		margin-bottom: 10px;
+		width: 70%;
+		height: 95%;
+	}
+}
+
+@media (max-width: 576px) {
+	.text-container {
+		bottom: 28px;
+		height: auto;
+		padding: 0 5px;
+	}
+	.text-container p {
+		font-size: 15px;
+		align-self: flex-end;
+	}
+	.text-container h2 {
+		font-size: 1rem;
+		max-width: 60%;
 	}
 	.restaurant-wrapper {
 		margin-bottom: 10px;
