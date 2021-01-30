@@ -1,4 +1,4 @@
-# wolt_frontend
+# Wolt frontend
 Wolt Summer 2021 Internship frontend assignment
 
 > In this assignment you get to follow in the footsteps of Wolt developers and create a Discovery page. Your task is to render data from discovery_page.json on the screen.
