@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantSection component tests matches snapshot 1`] = `
+<div
+  className="Section"
+>
+  <i
+    className="anchor"
+    id="PopularRestaurants"
+  />
+  <h1>
+    Popular Restaurants
+  </h1>
+  <div
+    className="carousel"
+  >
+    <div
+      aria-live="polite"
+      className="horizontalSlider___281Ls carousel__slider carousel__slider--horizontal"
+      onKeyDown={[Function]}
+      role="listbox"
+      style={Object {}}
+      tabIndex={0}
+    >
+      <div
+        className="carousel__slider-tray-wrapper carousel__slider-tray-wrap--horizontal"
+        style={Object {}}
+      >
+        <ul
+          className="sliderTray___-vHFQ sliderAnimation___300FY carousel__slider-tray carousel__slider-tray--horizontal"
+          onClickCapture={[Function]}
+          onMouseDown={[Function]}
+          onTouchCancel={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+              "transform": "translateX(0%) translateX(0px)",
+              "width": "1000%",
+            }
+          }
+        >
+          <li
+            aria-selected={true}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--visible"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={0}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Sea Chain
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Salt
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Fake Tomato Mafia
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Charming Pepper Emporium
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Loving Meat Basket
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Vegetable Factory
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Cucumber Hotel
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Horrific Lettuce
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Real Pizza Factory
+                  </h2>
+                  <p>
+                    online
+                     
+                    <span
+                      className="dot online"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            aria-selected={false}
+            className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--hidden"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="option"
+            style={
+              Object {
+                "paddingBottom": "5.625%",
+                "width": "10%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="slideInner___2mfX9 carousel__inner-slide"
+              style={Object {}}
+            >
+              <div
+                className="restaurant-wrapper"
+              >
+                <div
+                  className="text-container"
+                >
+                  <h2>
+                    Rosemary
+                  </h2>
+                  <p>
+                    offline
+                     
+                    <span
+                      className="dot offline"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="control-container"
+    >
+      <button
+        aria-label="previous"
+        className="buttonBack___1mlaL carousel__back-button move-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fas fa-angle-left fa-3l fa-ccolor"
+        />
+      </button>
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--0 carousel__dot--selected slide-dot"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--1 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--2 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--3 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--4 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--5 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--6 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--7 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--8 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="slide dot"
+        className="dot___3c3SI carousel__dot carousel__dot--9 slide-dot"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-label="next"
+        className="buttonNext___2mOCa carousel__next-button move-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fas fa-angle-right fa-ccolor"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

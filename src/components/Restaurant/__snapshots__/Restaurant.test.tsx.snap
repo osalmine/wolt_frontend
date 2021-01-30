@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Restaurant component tests matches snapshot 1`] = `
+<div
+  className="restaurant-wrapper"
+>
+  <div
+    className="text-container"
+  >
+    <h2>
+      Sea Chain
+    </h2>
+    <p>
+      online
+       
+      <span
+        className="dot online"
+      />
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component tests matches snapshot 1`] = `
+<nav
+  className="py-3 navbar navbar-expand-lg navbar-light bg-light fixed-top"
+>
+  <a
+    className="navbar-brand-text navbar-brand"
+    href="/"
+  >
+    Discovery
+  </a>
+  <button
+    aria-controls="responsive-navbar-nav"
+    aria-label="Toggle navigation"
+    className="navbar-toggler collapsed"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    aria-expanded={null}
+    className="navbar-collapse collapse"
+    id="responsive-navbar-nav"
+  >
+    <div
+      className="mr-auto navbar-center navbar-custom-text navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        className="nav-link"
+        data-rb-event-key="#PopularRestaurants"
+        href="#PopularRestaurants"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        Popular Restaurants
+      </a>
+      <a
+        className="nav-link"
+        data-rb-event-key="#NewRestaurants"
+        href="#NewRestaurants"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        New Restaurants
+      </a>
+      <a
+        className="nav-link"
+        data-rb-event-key="#NearbyRestaurants"
+        href="#NearbyRestaurants"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        Nearby Restaurants
+      </a>
+    </div>
+  </div>
+</nav>
+`;

@@ -5,17 +5,19 @@ import './Restaurant.css'
 
 interface Props {
 	restaurant: Restaurant;
+	displayBlurhash?: boolean;
 };
 
-const RestaurantComponent: React.FC<Props> = ({ restaurant }) => {
+const RestaurantComponent: React.FC<Props> = ({ restaurant, displayBlurhash = true }) => {
 	return (
 		<div className="restaurant-wrapper">
+			{displayBlurhash && 
 			<Blurhash 
 				hash={restaurant.blurhash}
 				width={'100%'}
 				height={'83%'}
 				className="rounded-corners d-block"
-			/>
+			/>}
 			<div className="text-container">
 				<h2>{restaurant.name}</h2>
 				<p>{restaurant.online ? "online" : "offline"} <span className={restaurant.online ? "dot online" : "dot offline"} /></p>

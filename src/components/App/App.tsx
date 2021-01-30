@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 		<Header sectionsProp={inputJson} />
-		{inputJson.sections.map((restaurantsSection, i) => <RestaurantSection key={i} section={restaurantsSection} />)}
+		{inputJson && inputJson.sections.map((restaurantsSection, i) => <RestaurantSection key={i} section={restaurantsSection} />)}
     </div>
   );
 }

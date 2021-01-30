@@ -21,9 +21,10 @@ export interface Section {
 
 interface Props {
 	section: Section;
+	displayBlurhash?: boolean;
 }
 
-const RestaurantSection: React.FC<Props> = ({ section }) => {
+const RestaurantSection: React.FC<Props> = ({ section, displayBlurhash = true }) => {
 	return (
     	<div className="Section">
 			<i className="anchor" id={section.title.replace(/ /g,'')}/>
@@ -36,7 +37,10 @@ const RestaurantSection: React.FC<Props> = ({ section }) => {
 			>
 				<Slider>
 					{section.restaurants.map((restaurant, i) => {
-						return (<Slide index={i} key={i}> <RestaurantComponent restaurant={restaurant} /> </Slide>);
+						return (
+							<Slide index={i} key={i}>
+								<RestaurantComponent restaurant={restaurant} displayBlurhash={displayBlurhash} />
+							</Slide>);
 					})}
 				</Slider>
 				<div className="control-container">
